@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>StudentXP_PostedXp</title>
+        <link rel="shortcut icon" type="image/png" href="https://cdn.eso.org/images/screen/eso1907a.jpg"/>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/vendor/markdown.js"></script>
+    </head>
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">StudentXp</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">Python</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Forntend</li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">Css</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">PHP</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-12">
+			<div class="main-banner">
+				<img src="https://cdn.eso.org/images/screen/eso1907a.jpg" class="img-thumbnail" height="500" width="500"></img>
+			</div>
+		</div>
+	  </div>
+      <div class="row">
+        <div class="col-lg-8">
+			<div class="">
+        <h1>Experiences of other Students</h1>
+        <p>Learn from other students and staff Experience.</p>
+				<form role="form">
+					<div class="input-group">
+						<input type="text" class="form-control" id="query" placeholder="search for questions.."></input>
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+						</span>
+					</div>
+        </form>
+        <div>
+          <h2>ALL POSTS</h2>
+          <p><strong>Why are data structures and algorithms so important in computer science?</strong></p>
+          <p>It is axiom that data structures and algorithms are base of computer science. It is actual computer science.
+            <br>
+            Any developer or cs student must have to write code which provides a required output. Algorithms are methods to
+            implement certain task. Algorithm is general word which suggest a process to perform task in sequential manner.
+            Algorithms are developed to perform task more efficiently. If you write code as per your perception and
+            judgement
+            without applying any predefined algorithm, your code will be botched up after certain time. It is because you
+            haven’t
+            applied any predefined approach or methodology.
+            <br>
+            Same thing happens with data structures. Data structures are like hands for algorithms to make recipe. Using
+            combination<span id="dots1">...</span><span id="more1">
+              of data structure and algorithms, we can improve performance of program drastically. For example, you are using
+              any
+              searching algorithm like binary search, then set data structure would be perfect rather than array. The reason
+              is, set
+              is much better for checking whether element is present in specified place or not. This is actually not a quite
+              good
+              example but it can tell you the actual need of data structure in algorithms.
+              <br>
+              Do you think that what difference would it make if we do not use any algorithm or suitable data structure? The
+              ans is -
+              Assume your task is to perform sorting on array of N elements. First you apply normal selection sort which is
+              pretty
+              easy to perform using two nested for loop. Second you apply Quick sort or merge sort which uses recursion and
+              code is
+              like around 50 lines with to many variables and Hodge podge. Now if the value of N is 100 or 1000, your both
+              algorithm
+              implementation would work perfectly without error or lag. Selection sort is O(N^2) and Merge sort is O(NlogN) so
+              at max
+              number of comparison will be 1M. They will not lag on i5 at all.
+              <br>
+              Now think that value of N is 1M. This time your selection sort will stop giving you any result. Number of
+              comparison
+              will be 10^12. So on i5 or i7 also, it will take few hours to complete. On the other hand, merge sort would
+              require only
+              10^7 moves which will take around minute (roughly) at max. So this is actual power of algorithms. Array data
+              structure
+              is also perfect for sorting and so that combination of both will make us happy.
+              <br>
+              We can say that algorithms and data structures are swords for computer science students. As much and efficiently
+              you use
+              them, your future will be bright for sure. I hope you understand why they are such important for us. Keep
+              practicing and
+              never loose hope. Enjoy coding..:)</span></p>
+          <button onclick="myFunction2()" id="myBtn1">Read more</button>
+          <script>
+            function myFunction2()
+            {
+              var dots = document.getElementById( "dots1" );
+              var moreText = document.getElementById( "more1" );
+              var btnText = document.getElementById( "myBtn1" );
+
+              if ( dots.style.display === "none" )
+              {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+              } else
+              {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+              }
+            }
+          </script>
+          <hr>
+          <div class="askeecs-question-author pull-right">
+            <span>5m ago</span>
+            <a href="#">student123</a>
+            <span class="badge">15</span>
+          </div>
+          <div>
+            <a class="btn btn-default btn-xs">computer science</a>
+            <a class="btn btn-default btn-xs">Dsa</a>
+          </div>
+          <ul class="askeecs-comment-list list-unstyled">
+            <li class="comment">
+              <p>This is actually a good explanation to the concept. - <a href="#" class="">Tarun Gupta</a> <small>5 mins
+                  ago</small></p>
+            </li>
+            <li class="comment">
+              <p>Thank you - <a href="#" class="">Sandeep Singh</a> <small>25 mins ago</small></p>
+            </li>
+        
+        </div>
+        <div>
+          <!-- <h2>Recent posts</h2> -->
+          <p><strong>What are the biggest lessons you have learned in the corporate world?</strong></p>
+          <p>What I have learnt are a series of teeny tiny lessons which together make up for the biggest lesson.
+            <br>
+            The following are those teeny tiny lessons.
+            <br>
+            <strong>1. Everybody cares.</strong> Just that it's not about you. Nobody cares about you. They may care about many
+            different things. You
+            are not one of those things. Care is a huge word to be throwing around in an office environment, in the corporate
+            world.
+        
+            Lesson Learnt: Don't expect people to care about you.
+            <br>
+            <strong>2. Those whom you think care about you</strong> - they only act like they do. In reality, they don't. They
+            may care about you
+            professionally. But again, as I said, care is a huge word to be throwing around for such behaviour. They just look
+            out
+            for you professionally at best.
+        
+            Lesson Learnt: Don't trust people to have your best interest in mind.
+            <br>
+            <strong>3. Most emails are just</strong><span id="dots">...</span><span id="more">
+              B.S. In fact out of the 1000 emails in your inbox, you could do away without seeing at least 800 of them.
+        
+              <b>Lesson Learnt:</b> Learn to manage emails and respond only for those that is directly relevant to you or
+              something that you
+              can contribute to.
+        
+              <b>4. You're just a number.</b> You're just a raw material your company has invested in, that gives them the ROI
+              they expect.
+        
+              Once you start failing to give them the ROI they expect, they will gladly replace you for someone else who's more
+              efficient, better, and cost efficient too. If somebody better comes along who gives a better ROI, the company
+              won't bat
+              an eye while firing you, replacing you with that person.
+        
+              <b>Lesson Learnt:</b> Love your job, don't love your company.
+        
+              <b>5. You may think of most people around you as friends and such -</b> but, the day you leave your company -
+              within two days,
+              you'll be forgotten. Once you're gone, nobody talks about you. Nobody remembers you. It's as if you didn't exist
+              there.
+        
+              This is unless you were someone who was indispensable for some reason (the sole person with the knowledge of an
+              entire
+              domain, a super-awesome manager, a top-level developer lead or something). Companies rarely let someone become
+              indispensable and irreplaceable. They always have someone readied to take your place.
+        
+              <b>Lesson Learnt:</b> Don't be attached to people and the place of work.
+        
+              <b>6. 99% of the people in the corporate jobs are deeply unhappy.</b>
+        
+              They are unhappy about their jobs. They are unhappy about their lives. They drown themselves in social media,
+              movies, tv
+              shows, and other such things to avoid facing the growing unhappiness within them. They do everything in their
+              power to
+              keeping running away from facing that unhappiness. They all know it deep down. But they are all tied - to plastic
+              money,
+              to debts, to loans, to addictions, to liabilities, to habits, and so on. Most of them are tied to certainty.
+        
+              <b>Lesson Learnt:</b> Don't tie yourself to certainty. Growth happens outside of your comfort zone.
+        
+              <b>7. The remaining 1% of the people who</b> are happy are almost always the ones who love what they do to the
+              core - the ones
+              who came to that field with a passion for what they do, and are often seen in senior or top/decorated positions
+              with a
+              better package. They know that if they wanted to leave, they could leave and they'd immediately have another job
+              or a
+              backup ready.
+        
+              <b>Lesson Learnt:</b> Keep improving yourself, and always keep looking out for yourself. Keep updating yourself
+              and always be
+              ready to jump, if push comes to stove.
+        
+              <b>8. If you stand out in the work aspect of your job,</b> you'll be lauded, envied, but definitely appreciated -
+              may not be
+              completely to what you deserve to be appreciated like, but definitely appreciated.
+        
+              But, if you stand out from the crowd in any other way, the crowd will try to make you a part of the crowd, make
+              you into
+              following the herd, being a part of the herd. If you hold strong and if they fail, they will try the other way.
+              They'll
+              keep mocking you and making fun of you - if you're friendly. If you're not so friendly and jovial, they'll avoid
+              and
+              ignore you.
+        
+              <b>Lesson Learnt:</b> Corporates run on herd mentality. If you don't blend in, you're not gonna survive. But, if
+              you make it a
+              point to stand your ground, all the while you do good work - if you get so good that they can't ignore you - then
+              you
+              can be as you want to be, harmless, but stand out.
+        
+              <b>9. If you're single and especially if you're relatively</b> new to the company (1-2 years in the company),
+              people in your
+              team (especially the married ones, the old guys, the seasoned ones) will mostly expect you to work late hours,
+              late
+              nights, finish tasks well before the deadline. Especially, if they work late hours, they will definitely expect
+              you to
+              stay.
+        
+              <b>Lesson Learnt:</b> If you're going to tell them that you can't stay late, or you can't work weekends - they're
+              gonna make
+              sure it reflects in your promotions, hikes, bonuses. Definitely. But, stand your ground. Otherwise, if you do as
+              they
+              wish for you to - staying late nights, working weekends, etc., they'll expect you to do the same, even after you
+              are
+              married.
+        
+              <b>10. If you complete your work before deadline,</b> you will be given more work (especially true when you're
+              single).
+        
+              <b>Lesson Learnt:</b> When you're with the devil, learn to do the devil's work - if you're really desperate for
+              holding on to
+              that job.
+        
+              <b>11. Most people in the corporate are unhealthy and eat shit.</b> Very few people actually build discipline
+              around their
+              lifestyle to eat clean and healthy.
+        
+              <b>Lesson Learnt:</b> People will tell you that this is the age you must eat all you can, that you can't eat like
+              this once you
+              go into 30s or 40s. Those people are just full of shit. They'll try to make you eat as unhealthy as they do,
+              because
+              they don't want to feel guilty seeing someone young, sticking to a discipline and doing what they couldn't do. If
+              you
+              eat healthy and workout properly, you can eat anything at any age. Don't listen to people. Eat clean and healthy
+              from
+              your 20s, if you want to have a rock solid body which is under your control in your 40s, 50s, and beyond.
+        
+              </b>12. Most people in the corporate who usually go and</b> workout at the gym think that they can eat all they
+              want, whatever
+              they want, as long as they workout - that everything will be fine. They don't realise that if they eat crap, their
+              body
+              will become crap soon.
+        
+              <b>Lesson Learnt:</b> Don't think you can work your way around shitty eating. Eating shit and working out will not
+              solve
+              anything. Sure, you may keep a good body for a while. But all the crap you feed your body, a few years later, your
+              body
+              will start reflecting it. You are what you eat. If you eat shit, what are you then?
+        
+              <b>13. Most meetings are irrelevant and a waste of time,</b> unless you're in a managerial, or product management
+              position.
+        
+              <b>Lesson Learnt:</b> Find a way to avoid meetings irrelevant to you. Even then, get the minutes of the meeting
+              from someone
+              who attended it, so that you're always up to date.
+        
+              </b>14. People will tell you they'll miss you, when you leave,</b> mostly in a farewell they organise for you (if
+              you're a
+              senior person) or when you collect your belongings and leave (if you're relatively new). The truth is, they won't.
+        
+              <b>15. Most people in corporate are deeply in debt.</b> As their salaries increase, so do their spendings. They
+              follow the
+              herd. They get a car. They take car financing for buying the car. They buy a home. They buy it with a housing
+              loan.
+              Then, they marry. They marry by taking loans - for marriage, jewellery, and other expenses.
+        
+              <b>Lesson Learnt:</b> Don't buy the things you don't need, with the money you don't have (credit card), to impress
+              people you
+              don't like (most around you - relatives, colleagues, etc.)
+        
+              <b>16. Words like loyalty, commitment to company, dedication towards the company's work, etc.</b>, have no place
+              in corporate.
+        
+              Sure, there are some people who are outright loyal to their company, only as long as it suits them. You can see
+              some
+              people working in a company for 10 years, 15 years. But, why? From the outside, it looks like they're loyal,
+              committed
+              and dedicated to their company. If you dig deep, you'll come to know of the different reasons they've been there
+              for
+              such a long time. Maybe it's because their family is close by from the company. Or, maybe it's because they're
+              really
+              settled in the company, having developed expertise in their team's domain. Or, maybe it's because they want to
+              stay
+              settled in one place. Or, maybe it's because they are so well respected in the place they are in right now, that
+              they're
+              uncertain if they'll receive the same respect and treatment in a new place. It could be thousand other reasons.
+              But
+              there's always a reason some people look so dedicated and loyal. In reality, if you take away those reasons,
+              there's no
+              place for loyalty, dedication, commitment. It's all only present until it's comfortable for them, and if it suits
+              them.
+        
+              <b>Lesson Learnt:</b> Don't mistake people to be loyal or committed. Don't wish to be loyal or committed. Wherever
+              you go, just
+              strive to do the best work that you can possibly do, within the constraints of time, space, and life.
+        
+              <b>17. Most people in the corporate live to work.</b> They don't work to live.
+        
+              I best read it in this answer and comment - Faisal Khan's answer to What are the biggest lessons you have learned
+              in the
+              corporate world?
+        
+              You can spend your entire career at the company, but once you go against them, you'll be chucked out and the
+              entire
+              system will be against you. Years of blood, sweat and tears would be forgotten in a heartbeat and you'd be
+              ostracized.
+              The system (i.e. the company) protects itself, no one else.
+        
+              The greatest lessons I learnt were that there is more to life than work, there are umpteen ways of earning a
+              living and
+              one should explore that all the time, that the words like loyalty, emotional bonding, etc has no place and that
+              one
+              needs to be connected professionally only. We devote entire lifetimes to the workplace, ignoring the family and
+              kids,
+              and once you are out, everybody forgets you. End of the day, in the Indian situation, you are left with your sons
+              and
+              daughters whom you neglected and you expect them to take care of you for the rest of your life. I suppose while
+              one must
+              work sincerely and honestly, wisdom must dawn on him/her that there has to be an absolute work life balance all
+              the
+              time,that there is more to life than work and that relationships with close friends and family and the kids is
+              supreme.
+              Also, since many casual or even serious relationships wither away like the leaves of a plant, with new ones being
+              in
+              place, one has to have a sense of perspective about relationships.
+        
+              Most people spend like 14-16 hours per day at work. At what cost? They rarely ever spend quality time with their
+              family,
+              kids and spouse, parents, etc. They spend more than half their waking moments at work, as much as 8 hours in
+              sleep. Only
+              4 to 5 hours - do they have to spend on things they love, people they love, etc. But - most of them are tired
+              after long
+              day's work that they don't find the necessary energy to spend that time on their beloved ones. Instead, they spend
+              that
+              time watching TV, movies, just daydreaming, or worrying.
+        
+              <b>Lesson Learnt:</b> Work for living. Don't live for working. Especially in the corporate.
+        
+              <b>18. Most people in corporate settle.</b>
+        
+              They don't keep in touch with their old friends. Their old friends move on. They move on. They try to make friends
+              with
+              those around them - in the corporate, their colleagues. They settle for the kind of friendship they can develop -
+              which
+              is in most cases not real. They don't go out during weekends. If they do, they go to fill their soul with
+              temporary
+              fillings - like movies, pubs, drugs, etc. They settle for a soulless life.
+        
+              <b>Lesson Learnt:</b> Don't settle.
+        
+              <b>19. They sacrifice most of their time at work and expect to bring up a fully functional family.</b>
+        
+              Most of the time, when you spend like 14-16 hours at work, you end up becoming a stranger to your spouse and your
+              kids.
+              Your spouse and kids become a kind of a mechanical commitment rather than being life and soul-oriented
+              relationships.
+              People usually become unhappy and disgruntled in their marriage. They try to make up for the hollow feeling they
+              feel
+              with a lot of possessions, intermittent vacations, buying a lot of things, spending a lot of money on their spouse
+              and
+              kids. They don't realise that their kids and spouse don't need a lot of money, but, rather, they need some time of
+              theirs.
+        
+              Sometimes, when the family grows up to be fully functional, it's either the work of their spouse or the work of
+              other
+              factors involved in the family's upbringing (maybe the presence of grandparents, or presence of another father
+              figure in
+              an uncle or a neighbour, etc.)
+        
+              <b>Lesson Learnt:</b> Always spend time with your family, one way or the other. Coz, even when your company
+              ditches you, it's
+              your family you're gonna fall back onto.
+        
+              <b>20. Most people don't have a separation of personal from the professional.</b>
+        
+              Most people take professional woes to home. They bring personal woes to office. They don't have a separation of
+              concern
+              in their life. Their corporate life experience has such a major role that the kind of tension and stress that is
+              created
+              around them is also carried to their home.
+        
+              <b>Lesson Learnt:</b> Keep the professional away from the personal. Don't get personal with professional.
+        
+              <b>21. To not indulge in workplace romance.</b>
+        
+              Workplace romances are common. When it's a hit, you've got an amazing thing - both working at the same place,
+              relationship strong, everything good, everyone happy (once you get married). You also get to spend more time
+              together.
+        
+              When it's a miss, when it fails, it's a sour sour thing to face. Especially going through the pain of seeing the
+              other
+              person every single day, that's not for the faint-hearted. When the workplace romance fails, it has a pretty huge
+              negative impact on your psyche - at the workplace.
+        
+              <b>Lesson Learnt:</b>
+        
+              Keep your relationship and everything related to relationship outside of your office, even if it is with someone
+              from
+              inside the office.
+        
+              Keep your relationship as secretive as possible from your colleagues and office people. Don't make it obvious.
+              This
+              helps in alleviating the after-effects of a break-up if it happens.
+        
+              Keep your personal away from the professional.</span></p>
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+          <script>
+            function myFunction()
+            {
+              var dots = document.getElementById( "dots" );
+              var moreText = document.getElementById( "more" );
+              var btnText = document.getElementById( "myBtn" );
+
+              if ( dots.style.display === "none" )
+              {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+              } else
+              {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+              }
+            }
+          </script>
+          <hr>
+          <div class="askeecs-question-author pull-right">
+            <span>5m ago</span>
+            <a href="#">James007</a>
+            <span class="badge">5</span>
+          </div>
+          <div>
+            <a class="btn btn-default btn-xs">Buisness</a>
+            <a class="btn btn-default btn-xs">Sales</a>
+          </div>
+          <ul class="askeecs-comment-list list-unstyled">
+            <li class="comment">
+              <p>This is actually a good explanation to the concept. - <a href="#" class="">Tarun Gupta</a> <small>36 mins
+                  ago</small></p>
+            </li>
+            <li class="comment">
+              <p>Thank you - <a href="#" class="">Sandeep Singh</a> <small>5 hrs ago</small></p>
+            </li>
+        
+            </div>
+			</div>
+			<hr>
+			<div class="">
+			</div>
+        </div>
+        <div class="col-lg-4">
+			<div class="btn-center">
+				<a href="question.html" class="btn btn-primary btn-lg" target="_blank">Post Your Experience</a>
+			</div>
+			<div>
+				<h2>Trending Tags</h2>
+        <a href="#" class="label label-info askeecs-tag">motivational Speak</a>
+        <a href="#" class="label label-info askeecs-tag">C#</a>
+        <a href="#" class="label label-info askeecs-tag">HTML</a>
+        <a href="#" class="label label-info askeecs-tag">Javascript</a>
+        <a href="#" class="label label-info askeecs-tag">Python</a>
+        <a href="#" class="label label-info askeecs-tag">C++</a>
+        <a href="#" class="label label-info askeecs-tag">C</a>
+        <a href="#" class="label label-info askeecs-tag">Java</a>
+        <a href="#" class="label label-info askeecs-tag">Leadership</a>
+        <a href="#" class="label label-info askeecs-tag">Algorithms</a>
+			</div>
+			<div class="askeecs-main-banner1">
+				<img src="pics/12.png" class="img-thumbnail"></img>
+			</div>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; For Bon Hacketit</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+		<script>
+		  function Editor(input, preview) {
+			this.update = function () {
+			  preview.innerHTML = markdown.toHTML(input.value);
+			};
+			input.editor = this;
+			this.update();
+		  }
+		  new Editor(document.getElementById("mk-input"), document.getElementById("mk-preview"));
+		</script>
+		<script>
+			$.fn.serializeObject = function()
+{
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+        if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+};
+			$("#f-question").on('submit', function (event) {
+				var data = $(this).serializeObject();
+				data.tags = data.tags.split(' ');
+
+				event.preventDefault();
+
+				$.post("/question", data, function (res) {
+					console.log(res);
+				}, "json");
+			})
+		</script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
